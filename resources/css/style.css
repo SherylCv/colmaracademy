@@ -8,6 +8,9 @@ body{
   font-size: 16px;
   border: thin solid red;
 }
+
+/* HEADER */
+
 header{
   display: flex;
   align-items: center;
@@ -54,4 +57,61 @@ header li{
   margin-left: 0.5rem;
   margin-right:0.5rem;
   display: inline;
+}
+/* END OF HEADER */
+
+/* LEARN Banner */
+.learn{
+  display: flex;
+  background-color: gray;
+  width: 100%;
+  height: auto;
+  border: thin solid orange;
+}
+
+.image{
+  display: flex;
+  width: 60%;
+  height: auto;
+}
+
+.image img{
+  width: 100%;
+  height: auto;
+  margin: 2rem 1.5rem;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  width: 40%;
+  border: thin solid purple;
+}
+.description h1{
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+  border: thin solid green;
+}
+.description p{
+  font-style: italic;
+  color: purple;
+  border: thin solid yellow;
+}
+.description .button{
+  display: flex;
+  width: inherit;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  border: thin solid black;
+}
+.description h2{
+  color: blue;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
