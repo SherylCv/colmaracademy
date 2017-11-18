@@ -1,1 +1,57 @@
 /* Style sheet for Colmar Academy */
+body{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: white;
+  font-size: 16px;
+  border: thin solid red;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;;
+  height: 4rem;
+  width: 100%;
+  border: thin solid green;
+}
+
+/* left side of header */
+.left{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+header img{
+  margin-left: 1.5rem;
+  width: 3rem;
+  border: thin solid orange;
+}
+header h1{
+  margin-left: 0;
+  height: 2rem;
+  border: thin solid purple;
+}
+header .academy{
+  color: blue;
+  font-weight: bold;
+}
+
+/*right side of header*/
+.right{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  border: thin solid green;
+}
+header ul{
+
+}
+header li{
+  margin-left: 0.5rem;
+  margin-right:0.5rem;
+  display: inline;
+}
