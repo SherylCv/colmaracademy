@@ -60,7 +60,7 @@ header li{
 }
 /* END OF HEADER */
 
-/* LEARN Banner */
+/* LEARN Banner - Banner1 */
 .banner1{
   display: flex;
   background-color: gray;
@@ -90,7 +90,7 @@ header li{
   width: 40%;
   border: thin solid purple;
 }
-.learn h1{
+.learn h1,{
   font-size: 2rem;
   font-weight: bold;
   color: red;
@@ -114,4 +114,101 @@ header li{
   color: blue;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+/*End of Banner1*/
+
+/* Information Banner - Banner2*/
+
+.banner2{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: auto;
+  border: thin solid blue;
+}
+
+.practice{
+  display: flex;
+  width: 60%;
+  border: thin solid red;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: inherit;
+  border: thin solid black;
+}
+
+.infoimage{
+  width: auto;
+  height: 50%;
+  margin: 2rem 1.5rem;
+  border: thick solid green;
+}
+
+.infoimage img{
+  width: 100%;
+  border: thin solid orange;
+}
+
+.practicetext{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: thick solid orange;
+}
+
+.practicetext h1{
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 1.5rem;
+  border: thin solid green;
+}
+.practicetext p{
+  font-size: 1rem;
+  color: green;
+  font-style: italic;
+  margin-bottom: 2rem;
+  border: thin solid purple;
+}
+
+.practicetext h4{
+  font-size: 0.75rem;
+  color: black;
+  border: thin solid black;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  border: thin solid green;
+}
+
+.orientation, .campus, .lecture{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border: thick solid blue;
+}
+
+.oimage, .cimage, .limage{
+  width: 35%;
+  height: auto;
+}
+
+.oimage img, .cimage img, .limage img{
+  width: 100%;
+  height: auto;
+}
+
+.orientation .column, .campus .column, .lecture .column{
+  width: 65%;
+  margin: 2rem 1.5rem;
 }
