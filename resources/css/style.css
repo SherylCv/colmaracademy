@@ -118,12 +118,13 @@ header li{
   background-color: Gainsboro;
 }
 
-/*left side */
+/* banner 2 left side */
 
 .practice{
   display: flex;
   width: 60%;
-  margin: 2rem 1.5rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
 }
 
 .column{
@@ -162,14 +163,16 @@ header li{
   color: black;
 }
 
-/* right side */
+/* banner2 right side */
 
 .info {
   display: flex;
   flex-direction: column;
   width: 40%;
   height: auto;
-  margin: 2rem 1.5rem;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .orientation, .campus, .lecture{
@@ -193,4 +196,79 @@ header li{
 .orientation .column, .campus .column, .lecture .column{
   width: 65%;
   margin: 2rem 1.5rem;
+}
+
+/*banner 3*/
+
+.banner3{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  background-color: lightgray;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.heading h1{
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: purple;
+  text-align: center;
+}
+
+.inner3{
+  display: inline-flex;
+  flex-wrap: nowrap;
+  width: auto;
+  height: auto;
+  margin: 2rem 6rem;
+}
+/* banner3 columns*/
+
+.left3, .middle3, .right3{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+}
+
+.left3{
+  margin-right: 1rem;
+}
+
+.middle3{
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.right3{
+  margin-left: 1rem;
+}
+
+.inner3 img{
+  width: 100%;
+  height: auto;
+}
+
+.left3 column{
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+}
+
+.inner3 h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 1rem;
+}
+
+.inner3 p{
+
 }
