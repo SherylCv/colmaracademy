@@ -282,3 +282,92 @@ header li{
 .inner3 p{
   line-height: 1.5;
 }
+
+/* banner 4  */
+
+.banner4{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  background-color: Gainsboro;
+}
+
+/* heading styled in banner3 section */
+
+.inner4{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: auto;
+}
+
+/*banner4 left side*/
+
+.left4{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1.5rem;
+}
+
+.left4 video{
+  width: 100%;
+  height: auto;
+}
+
+.left4 h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: green;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* banner4 right side*/
+
+.right4{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1.5rem;
+}
+
+.right4 h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: green;
+}
+
+.right4 img{
+  width: 35%;
+  height: 100%;
+  margin: 1rem 1rem;
+}
+
+.right4 .column{
+  width: 65%;
+  height: auto;
+  justify-content: center;
+}
+
+/*banner4 right top */
+
+.righttop4{
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: gray;
+}
+
+/*banner4 right bottom */
+
+.rightbottom4{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
