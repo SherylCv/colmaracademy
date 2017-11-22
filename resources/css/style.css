@@ -232,11 +232,16 @@ header li{
 }
 /* banner3 columns*/
 
+.inner3 .column{
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
+  height: 9rem;
+}
+
 .left3, .middle3, .right3{
   display: flex;
   flex-direction: column;
-  background-color: white;
-
 }
 
 .left3{
@@ -252,23 +257,28 @@ header li{
   margin-left: 1rem;
 }
 
+.lefttop3, .leftbottom3, .middletop3, .middlebottom3, .righttop3, .rightbottom3{
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
 .inner3 img{
   width: 100%;
   height: auto;
 }
 
-.left3 column{
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-  margin-right: 1rem;
-}
-
 .inner3 h1{
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 1rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.inner3 h2{
+  font-style: italic;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .inner3 p{
-
+  line-height: 1.5;
 }
