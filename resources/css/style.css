@@ -13,7 +13,9 @@ body{
 header{
   display: flex;
   align-items: center;
-  justify-content: space-between;;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
   height: 4rem;
   width: 100%;
   }
@@ -371,3 +373,21 @@ header li{
   width: 100%;
   height: auto;
 }
+
+/*Footer */
+
+footer{
+  display: flex;
+  background-color: Gainsboro;
+  border-top: thin solid gray;
+  width: 100%;
+  height: 4rem;
+}
+
+footer p{
+  font-size: 0.75rem;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+/* Media Queries for Mobile */
