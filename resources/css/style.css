@@ -30,18 +30,18 @@ header{
   justify-content: flex-start;
   align-items: center;
 }
-header img{
+.left img{
   margin-left: 1.5rem;
   width: 3rem;
 }
 
-header .colmar{
+.left .colmar{
   margin-left: 0;
   height: 2rem;
   font-size: 1.5rem;
   font-weight: bold;
 }
-header .academy{
+.left .academy{
   color: #A9A9A9;
   font-size: 1.5rem;
   font-weight: bold;
@@ -53,14 +53,17 @@ header .academy{
   justify-content: flex-end;
   margin-right: 1rem;
 }
-header ul{
 
-}
-header li{
+.right li{
   margin-left: 0.5rem;
   margin-right:0.5rem;
   display: inline;
 }
+
+.hmobile{
+  display: none;
+}
+
 /* END OF HEADER */
 
 /* LEARN Banner - Banner1 */
@@ -410,3 +413,100 @@ footer p{
 }
 
 /* Media Queries for Mobile */
+
+@media only screen and (max-width: 650px) {
+
+/* header with icons only */
+
+  header{
+    display: none;
+  }
+
+  .mobileheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #FFFFFF;
+    height: 4rem;
+    width: 100%;
+    }
+
+    .mobileleft{
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    .mobileright{
+      display: flex;
+      justify-content: flex-end;
+    }
+  .mobileleft img, .mobileright img{
+    height: 3rem;
+  }
+
+/*banner1 in column*/
+
+  .banner1{
+    flex-direction: column;
+  }
+
+  .image{
+    width: 100%;
+    margin: 0 0;
+  }
+
+  .learn{
+    justify-content: flex-start;
+    height: auto;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+  }
+
+  .learn .button{
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    width: 100%;
+    height: auto;
+   }
+
+/*banner2 in column form */
+
+  .practice{
+    display: none;
+  }
+
+  .info {
+    width: 100%;
+    height: 100%;
+    margin: 0 0;
+
+  }
+
+  .orientation, .campus, .lecture{
+    flex-direction: column;
+    align-items: flex-start;
+    border-color: transparent;
+  }
+
+  .lecture{
+    background-color: transparent;
+  }
+
+  .rightimage{
+    width: 100%;
+  }
+
+  .rightimage img{
+    margin: 0 0;
+    }
+
+  .orientation .column, .campus .column, .lecture .column{
+    width: 100%;
+    margin: 0 2.5rem;
+  }
+
+
+}
