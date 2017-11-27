@@ -60,6 +60,14 @@ header{
   display: inline;
 }
 
+.right li a{
+  color: #000000;
+}
+
+.right li a:hover{
+  color: #663399;
+}
+
 .mobileheader{
   display: none;
 }
